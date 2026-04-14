@@ -23,10 +23,11 @@ Este projeto utiliza Inteligência Artificial para analisar dados históricos de
 - **Deploy Pronto**: Inclui Dockerfile para execução em ambientes de nuvem (AWS/Azure).
 
 ## 🛠️ Como Executar
-1. Clone o repositório.
-2. Certifique-se de ter o Docker instalado.
-3. Execute: `docker-compose up --build`
-4. Acesse o dashboard em `localhost:8501`.
+1. Clone o repositório: `git clone https://github.com/AndersonBHBR/crypto-predictor-ai.git
+cd crypto-predictor-ai`
+2. Construa a imagem Docker: `docker build -t crypto-predictor-ai .`
+3. Execute o container: `docker run -p 8501:8501 crypto-predictor-ai`
+4. Acesse o dashboard: Abra o navegador em `http://localhost:8501`.
 
 ## 🙋 Sobre o Autor
 
