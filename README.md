@@ -1,9 +1,16 @@
 # 📈 Crypto Predictor AI
 
-Este projeto utiliza Inteligência Artificial para analisar dados históricos de criptoativos e prever tendências de preços futuros. Ele combina engenharia de dados em tempo real com modelos de Machine Learning.
+Este projeto utiliza Inteligência Artificial para analisar dados históricos de criptoativos e prever tendências de preços futuros. Ele combina engenharia de dados em tempo real com modelos de Machine Learning. Em outras palavras, um projeto de Ciência de Dados e Machine Learning de ponta a ponta que consome dados da API da Binance, processa indicadores técnicos e utiliza um modelo de Regressão para prever preços de Bitcoin.
 
-## 🚀 Tecnologias Utilizadas
-- **Python 3.9+**
+## 🚀 Funcionalidades
+- **Ingestão de Dados:** Coleta automática de dados da API da Binance (intervalo de 1h).
+- **Engenharia de Features:** Cálculo de Médias Móveis (7h e 21h) e retornos logarítmicos.
+- **Machine Learning:** Modelo baseado em *Random Forest Regressor* para predição de preços.
+- **Dashboard Interativo:** Interface construída em Streamlit para visualização e simulações.
+- **Containerização:** Projeto totalmente Dockerizado para facilitar o deploy.
+
+## 🛠️ Tecnologias Utilizadas
+- **Python 3.11+**
 - **Scikit-Learn**: Para modelagem preditiva.
 - **Pandas & Numpy**: Processamento e manipulação de dados.
 - **Binance API**: Fonte de dados em tempo real.

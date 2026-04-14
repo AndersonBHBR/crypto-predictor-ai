@@ -1,0 +1,6 @@
+.venv/
+venv/
+data/*.csv
+data/*.pkl
+__pycache__/
+.streamlit/
